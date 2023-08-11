@@ -90,7 +90,7 @@
 * In the key FacebookClientToken, replace CLIENT-TOKEN 
 * In the key FacebookDisplayName, replaceAPP-NAME with the name of provided.
 
-### Configure GoogleSignIn in your project (default info.plist)
+### Configure Airbridge in your project (default info.plist)
   ** Refer [Get started with Google Sign-In for iOS](https://developers.google.com/identity/sign-in/ios/start-integrating) **
   ```xml
     <key>AirbAppName</key>
