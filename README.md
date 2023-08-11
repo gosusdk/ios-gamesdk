@@ -272,12 +272,13 @@ IAPDataRequest *iapData = [[IAPDataRequest alloc]
 //andMainView: use as main view controller
 //andIAPDelegate: use as IAP Delegate
 /**
-* ProductID: Item code
-* AppleSecret: Empty
 * OrderID: Partner's order number
 * OrderInfo: Item description
+* ServerID: ID of the server
 * Amount: Price of the item
-* Character: ID of the character
+* ProductID: Item code
+* AppleShareSecrect: Empty
+* RoleID: ID of the character
 * ExtraInfo: Additional information that partners can send, which will be sent to the API to add gold after IAP payment.
 **/
 ```
