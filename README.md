@@ -271,6 +271,15 @@ IAPDataRequest *iapData = [[IAPDataRequest alloc]
 [[GameSDK sharedInstance] showIAP:(IAPDataRequest *)iapData andMainView:self andIAPDelegate:self];
 //andMainView: use as main view controller
 //andIAPDelegate: use as IAP Delegate
+/**
+* ProductID: Item code
+* AppleSecret: (Blank)
+* OrderID: Partner's order number
+* OrderInfo: Item description
+* Amount: Price of the item
+* Character: ID of the character
+* ExtraInfo: Additional information that partners can send, which will be sent to the API to add gold after IAP payment.
+**/
 ```
 
 # API Tracking Events
