@@ -4,12 +4,12 @@
 
 **This guide shows you how to integrate your iOS app using the GameSDK for iOS. The GameSDK for iOS consists of the following component SDKs:**
   - The GameSDK Core
-  - Thirdparty framework: GoogleSigin SDK, Firebase SDK, Facebook SDK, AppsFlyer SDK
+  - Thirdparty framework: GoogleSigin SDK, Firebase SDK, Facebook SDK, AppsFlyer SDK, Airbridge SDK
   
 ### FEATURES:
   - Login: Authenticate people with their my server ID, Google and Facebook credentials.
   - Payment IAP: Pay to buy products from in-app
-  - Track Events: Track events with third parties including Appsflyer and Firebase tracking
+  - Track Events: Track events with third parties including Appsflyer, Airbridge SDK and Firebase tracking
   - You will need some included keys:Client ID, Facebook App ID, FacebookClient Token and GoogleService-Info.plist file
 
 # Try It Out
@@ -169,7 +169,7 @@
     //set value for SDK
     [[GameSDK sharedInstance] gameInfo].devicetoken = deviceTokenString;
     //tracking uninstall
-    [[GameSDK AppsFlyer] trackingUninstallOnAF:deviceToken];
+    [[GameSDK Gtracking] registerForRemoteNotifications:deviceToken];
 }
 - (void)application:(UIApplication *)application 
         didReceiveRemoteNotification:(NSDictionary *) userInfo {
@@ -278,30 +278,17 @@ IAPDataRequest *iapData = [[IAPDataRequest alloc]
 ```objectivec
 [[GameSDK ServerIdTracking] idAppTrackingOpen:serverID roleID:roleID roleName:roleName];
 ```
-2. Tracking with Appsflyer
+2. Tracking
 ```objectivec
-//Custom event:Custom event parameters will be provided separately
-[[GameSDK AppsFlyer] trackingEventOnAF:@"eventName" withValues:(NSDictionary *)values];
-//tracking start trial
-[[GameSDK AppsFlyer] trackingStartTrialEventOnAF];
-//tracking Turial Completion
-[[GameSDK AppsFlyer] trackingTurialCompletedEventOnAF];
-//tracking Spent Credit
-[[GameSDK AppsFlyer] trackingSpentCreditEventOnAF:@"gamer_level"];
-//tracking Level Achieved
-[[GameSDK AppsFlyer] trackingLevelArchiveEventOnAF:@"gamer_level"];
-//tracking Achievement unlocked
-[[GameSDK AppsFlyer] trackingArchiveUnlockEventOnAF:@"gamer_level"];
-```
-3. Tracking with Firebase
-```objectivec
-//tracking start trial
-[[GameSDK Firebase] trackingEventOnFirebase:@"eventName" parameters:@{@"eventEventLogKey":@"eventEventLogValue"}];
-[[GameSDK Firebase] trackingScreenOnFirebase:@"screenName" screenClass:@"screenClass"];
-[[GameSDK Firebase] setUserPropertiesOnFirebase:@"userValue" forName:@"usernameName"];
-//    subscribe
-[[GameSDK Firebase] FirebaseSubscribeToTopic:@"topicName"];
-[[GameSDK Firebase] FirebaseUnSubscribeToTopic:@"topicName"];
+    //tracking start trial
+    [[GameSDK Gtracking] trackingStartTrial];    
+    //tracking Turial Completion
+    [[GameSDK Gtracking] trackingTurialCompleted];
+    //custom event
+    [[GameSDK Gtracking] trackingEvent:@"eventName" parameters:@{@"eventEventLogKey":@"eventEventLogValue"}];
+
+    // example
+    [[GameSDK Gtracking] trackingEvent:@"level_20" withValues:@{@"customerId": @"12345"}];
 ```
   
 By using the GameSDK for iOS you agree to these terms.
