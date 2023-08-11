@@ -27,6 +27,8 @@
   - MobileCoreServices.framework
   - SystemConfiguration.framework
   - MessageUI.framework
+  - AdSupport.framework
+  - AppTrackingTransparency.framework
 - Adding Capabilities: Sign-in with Apple, Push Notifications
 
 ### With Facebook IOS SDK version 13 or latest
