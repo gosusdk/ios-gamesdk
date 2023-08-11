@@ -4,12 +4,12 @@
 
 **This guide shows you how to integrate your iOS app using the GameSDK for iOS. The GameSDK for iOS consists of the following component SDKs:**
   - The GameSDK Core
-  - Thirdparty framework: GoogleSigin SDK, Firebase SDK, Facebook SDK, AppsFlyer SDK
+  - Thirdparty framework: GoogleSigin SDK, Firebase SDK, Facebook SDK, AppsFlyer SDK, Airbridge SDK
   
 ### FEATURES:
   - Login: Authenticate people with their my server ID, Google and Facebook credentials.
   - Payment IAP: Pay to buy products from in-app
-  - Track Events: Track events with third parties including Appsflyer and Firebase tracking
+  - Track Events: Track events with third parties including Appsflyer, Airbridge SDK and Firebase tracking
   - You will need some included keys:Client ID, Facebook App ID, FacebookClient Token and GoogleService-Info.plist file
 
 # Try It Out
@@ -169,7 +169,7 @@
     //set value for SDK
     [[GameSDK sharedInstance] gameInfo].devicetoken = deviceTokenString;
     //tracking uninstall
-    [[GameSDK AppsFlyer] trackingUninstallOnAF:deviceToken];
+    [[GameSDK Gtracking] registerForRemoteNotifications:deviceToken];
 }
 - (void)application:(UIApplication *)application 
         didReceiveRemoteNotification:(NSDictionary *) userInfo {
