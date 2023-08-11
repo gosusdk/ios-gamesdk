@@ -273,7 +273,7 @@ IAPDataRequest *iapData = [[IAPDataRequest alloc]
 //andIAPDelegate: use as IAP Delegate
 /**
 * ProductID: Item code
-* AppleSecret: (Blank)
+* AppleSecret: Empty
 * OrderID: Partner's order number
 * OrderInfo: Item description
 * Amount: Price of the item
