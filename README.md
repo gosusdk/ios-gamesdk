@@ -30,6 +30,7 @@
   - AdSupport.framework
   - AppTrackingTransparency.framework
 - Adding Capabilities: Sign-in with Apple, Push Notifications
+![image](https://github.com/gosusdk/ios-gamesdk/assets/94542020/f0b24e30-4832-470e-b08f-66ebfa6f4155)
 
 ### With Facebook IOS SDK version 13 or latest
   - Create a swift file (arbitrary name), confirm "Create Bridging Header" when prompt appear
