@@ -181,7 +181,7 @@
     //set value for SDK
     [[GameSDK sharedInstance] gameInfo].devicetoken = deviceTokenString;
     //tracking uninstall
-    [[GameSDK Gtracking] registerForRemoteNotifications:deviceToken];
+    [[GameSDK GTracking] registerForRemoteNotifications:deviceToken];
 }
 - (void)application:(UIApplication *)application 
         didReceiveRemoteNotification:(NSDictionary *) userInfo {
@@ -303,14 +303,14 @@ IAPDataRequest *iapData = [[IAPDataRequest alloc]
 2. Tracking
 ```objectivec
     //tracking start trial
-    [[GameSDK Gtracking] trackingStartTrial];    
+    [[GameSDK GTracking] trackingStartTrial];    
     //tracking Turial Completion
-    [[GameSDK Gtracking] trackingTurialCompleted];
+    [[GameSDK GTracking] trackingTurialCompleted];
     //custom event
-    [[GameSDK Gtracking] trackingEvent:@"eventName" parameters:@{@"eventEventLogKey":@"eventEventLogValue"}];
+    [[GameSDK GTracking] trackingEvent:@"eventName" parameters:@{@"eventEventLogKey":@"eventEventLogValue"}];
 
     // example
-    [[GameSDK Gtracking] trackingEvent:@"level_20" withValues:@{@"customerId": @"12345"}];
+    [[GameSDK GTracking] trackingEvent:@"level_20" withValues:@{@"customerId": @"12345"}];
 ```
   
 By using the GameSDK for iOS you agree to these terms.
