@@ -109,7 +109,7 @@ NSString *const kGCMMessageIDKey = @"gcm.message_id";
     [[GameSDK sharedInstance] gameInfo].devicetoken = deviceTokenString;
     //tracking uninstall
 //    [[GameSDK AppsFlyer] trackingUninstallOnAF:deviceToken];
-    [[GameSDK Gtracking] registerForRemoteNotifications:deviceToken];
+    [[GameSDK GTracking] registerForRemoteNotifications:deviceToken];
 }
 
 // [START receive_message]

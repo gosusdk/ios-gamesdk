@@ -30,7 +30,7 @@
 + (IdAppTracking *) ServerIdTracking;
 + (FacebookManager *) Facebook;
 + (AppleIAP *) AppleIAP;
-+ (GTrackingManager *) Gtracking;
++ (GTrackingManager *) GTracking;
 @property (nonatomic, strong) GameInfo *gameInfo;
 
 - (void) initSdk;

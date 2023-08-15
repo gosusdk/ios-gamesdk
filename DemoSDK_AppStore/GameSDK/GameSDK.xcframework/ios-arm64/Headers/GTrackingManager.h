@@ -25,4 +25,6 @@ didFinishLaunchingWithOptions:(NSDictionary *)launchOptions;
 - (void) registerForRemoteNotifications:(NSData *)deviceToken;
 - (void)trackingStartTrial;
 - (void)trackingTurialCompleted;
+- (void)doneNRU:(NSString *)serverId andRoleId:(NSString *)roleId andRoleName:(NSString *)roleName;
+- (void) trackingEvent:(NSString *)eventName;
 @end

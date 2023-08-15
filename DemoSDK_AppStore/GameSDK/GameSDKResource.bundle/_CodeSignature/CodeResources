@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/GameSDK.h</key>
 		<data>
-		w9vZtE8gts1fRC7ROOFK20V9GNg=
+		DtwZhzWTUqX7DfNGyX6+5/fdo/c=
 		</data>
 		<key>SignInViewController.nib/objects-14.0+.nib</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>game_info.plist</key>
 		<data>
-		6Bqi3OJDdEjUqkG5yw76xF9Naqc=
+		tk7UfSwDkPEfbtrNNwpqYe4oI98=
 		</data>
 		<key>gamesdk_language.plist</key>
 		<data>
@@ -203,11 +203,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			w9vZtE8gts1fRC7ROOFK20V9GNg=
+			DtwZhzWTUqX7DfNGyX6+5/fdo/c=
 			</data>
 			<key>hash2</key>
 			<data>
-			Rni1IuzS771qfybhmqFqUnmP8INUsPKCbtpV8OcE4EE=
+			TRKdoWYoM6RVFFaq35UOb8oY2JtWWwUhdTPE79QBbvc=
 			</data>
 		</dict>
 		<key>SignInViewController.nib/objects-14.0+.nib</key>
@@ -302,11 +302,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6Bqi3OJDdEjUqkG5yw76xF9Naqc=
+			tk7UfSwDkPEfbtrNNwpqYe4oI98=
 			</data>
 			<key>hash2</key>
 			<data>
-			DPfkSPWWFfQjJbzhaYXWRChz9SlgEZZuRytOqrHOL6Q=
+			B1LQm0XlM0/EuUHx0o1ehezzDcuMtzBtYUCz8a4nYVk=
 			</data>
 		</dict>
 		<key>gamesdk_language.plist</key>

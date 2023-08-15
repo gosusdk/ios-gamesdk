@@ -323,14 +323,18 @@
 
 - (void) callTrackingAFExample {
     //tracking start trial
-    [[GameSDK Gtracking] trackingStartTrial];
-//    [[GameSDK AppsFlyer] trackingStartTrialEventOnAF];
+    [[GameSDK GTracking] trackingStartTrial];
     
     //tracking Turial Completion
-    [[GameSDK Gtracking] trackingTurialCompleted];
-//    [[GameSDK AppsFlyer] trackingTurialCompletedEventOnAF];
+    [[GameSDK GTracking] trackingTurialCompleted];
+    [[GameSDK GTracking] doneNRU:@"server_id" andRoleId:@"role_id" andRoleName:@"role_name"];
     
-    [[GameSDK Gtracking] trackingEvent:@"level_20" withValues:@{@"customerId": @"12345"}];
+    [[GameSDK GTracking] trackingEvent:@"level_20"];
+    [[GameSDK GTracking] trackingEvent:@"level_20" withValues:@{@"customerId": @"12345"}];
+    
+    
+    [[GameSDK AppsFlyer] trackingStartTrialEventOnAF];
+    [[GameSDK AppsFlyer] trackingTurialCompletedEventOnAF];
 }
 
 - (void) callTrackingFirebaseExample {

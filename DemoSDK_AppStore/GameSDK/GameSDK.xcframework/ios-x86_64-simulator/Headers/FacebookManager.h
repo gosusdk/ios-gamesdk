@@ -22,13 +22,4 @@
 - (void) FBAppActive;
 - (void) FBLogEvent:(NSString *)eventName parameters:(NSDictionary *)values;
 - (void) FBLogPurchase:(double)amount andCurrency:(NSString *)currency;
-
-//=============== share Facebook ==============//
-/*
-- (void) inviteFacebookFriends:(UIViewController *)viewController andImageUrl:(NSString *)imageURL andAppLink:(NSString *)appLink FBInviteDelegate:(id) inviteDelegate;
-#pragma mark - share photos to facebook, size less than 12MB
-- (void) sharePhotoToFacebook:(UIViewController *)viewController andImage:(UIImage *)image andCaption:(NSString *)caption FBShareDelegate:(id<FBSDKSharingDelegate>) shareDelegate;
-- (void) shareLinkToFacebook:(UIViewController *)viewController andLink:(NSURL *) linkURL andContentTitle:(NSString *)contentTitle andDescription:(NSString *)desc FBShareDelegate:(id<FBSDKSharingDelegate>) shareDelegate;
-- (void) shareVideoToFacebook:(UIViewController *)viewController andVideoURL:(NSURL *) urlVideo FBShareDelegate:(id<FBSDKSharingDelegate>) shareDelegate;
- */
 @end
