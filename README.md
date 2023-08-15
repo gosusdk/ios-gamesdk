@@ -92,7 +92,6 @@
 * In the key FacebookDisplayName, replaceAPP-NAME with the name of provided.
 
 ### Configure Airbridge in your project (default info.plist)
-  ** Refer [Get started with Google Sign-In for iOS](https://developers.google.com/identity/sign-in/ios/start-integrating) **
   ```xml
     <key>AirbAppName</key>
     <string>sdkgosutest</string>
@@ -303,13 +302,13 @@ IAPDataRequest *iapData = [[IAPDataRequest alloc]
 2. Tracking
 ```objectivec
     //tracking start trial
-    [[GameSDK GTracking] trackingStartTrial];    
+    [[GameSDK GTracking] trackingStartTrial];
+    
     //tracking Turial Completion
     [[GameSDK GTracking] trackingTurialCompleted];
-    //custom event
-    [[GameSDK GTracking] trackingEvent:@"eventName" parameters:@{@"eventEventLogKey":@"eventEventLogValue"}];
-
-    // example
+    [[GameSDK GTracking] doneNRU:@"server_id" andRoleId:@"role_id" andRoleName:@"role_name"];
+    
+    [[GameSDK GTracking] trackingEvent:@"level_20"];    
     [[GameSDK GTracking] trackingEvent:@"level_20" withValues:@{@"customerId": @"12345"}];
 ```
   
