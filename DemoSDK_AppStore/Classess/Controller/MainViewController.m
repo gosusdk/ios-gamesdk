@@ -313,8 +313,7 @@
     //encode roleName
     roleName = [roleName stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     //call to SDK
-//    [[GosuSDK sharedInstance] gosuTrackingAppOpen:serverID roleID:roleID roleName:roleName];
-    [[GameSDK ServerIdTracking] idAppTrackingOpen:serverID roleID:roleID roleName:roleName];
+    [[GameSDK GTracking] doneNRU:serverID andRoleId:roleID andRoleName:roleName];
 }
 
 - (IBAction) call_Floating:(id)sender
