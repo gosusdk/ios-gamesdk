@@ -295,11 +295,7 @@ IAPDataRequest *iapData = [[IAPDataRequest alloc]
 ```
 
 # API Tracking Events
-1. Tracking AppOpen On GameSDK
-```objectivec
-[[GameSDK ServerIdTracking] idAppTrackingOpen:serverID roleID:roleID roleName:roleName];
-```
-2. Tracking
+
 ```objectivec
     //tracking start trial
     [[GameSDK GTracking] trackingStartTrial];
