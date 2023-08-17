@@ -14,7 +14,7 @@
 
 # Try It Out
 
-* Download [GameSDK latest](https://github.com/nerocasten2021/IOS-GameSDK/releases/) and [Third party framework](https://github.com/nerocasten2021/IOS-GameSDK/releases/) (FacebooSDK, FirebaseSDK, AppsflyerSDK)
+**Download the official version: [click here](https://github.com/gosusdk/ios-gamesdk/releases)**
 * GoogleService-Info.plist: send via mail
 * Install the following: App Tracking Transparency framework only available starting from Xcode 12 or later-The SDK supports iOS10+
 
