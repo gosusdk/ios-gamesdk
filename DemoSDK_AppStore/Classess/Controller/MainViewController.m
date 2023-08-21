@@ -330,19 +330,5 @@
     
     [[GameSDK GTracking] trackingEvent:@"level_20"];
     [[GameSDK GTracking] trackingEvent:@"level_20" withValues:@{@"customerId": @"12345"}];
-    
-    
-    [[GameSDK AppsFlyer] trackingStartTrialEventOnAF];
-    [[GameSDK AppsFlyer] trackingTurialCompletedEventOnAF];
-}
-
-- (void) callTrackingFirebaseExample {
-    //tracking start trial
-    [[GameSDK Firebase] trackingEventOnFirebase:@"eventName" parameters:@{@"eventEventLogKey":@"eventEventLogValue"}];
-    [[GameSDK Firebase] trackingScreenOnFirebase:@"screenName" screenClass:@"screenClass"];
-    [[GameSDK Firebase] setUserPropertiesOnFirebase:@"userValue" forName:@"usernameName"];
-//    subscribe
-    [[GameSDK Firebase] FirebaseSubscribeToTopic:@"topicName"];
-    [[GameSDK Firebase] FirebaseUnSubscribeToTopic:@"topicName"];
 }
 @end

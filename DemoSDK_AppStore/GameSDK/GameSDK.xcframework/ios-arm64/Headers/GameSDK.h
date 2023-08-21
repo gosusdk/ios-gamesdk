@@ -8,7 +8,6 @@
 #import <Foundation/Foundation.h>
 #import "GameInfo.h"
 #import "IAPDataRequest.h"
-#import "AppsflyerManager.h"
 #import "FirebaseManager.h"
 #import "LoginDelegate.h"
 #import "IdAppTracking.h"
@@ -25,8 +24,6 @@
 }
 
 + (GameSDK *) sharedInstance;
-+ (AppsflyerManager *) AppsFlyer;
-+ (FirebaseManager *) Firebase;
 + (IdAppTracking *) ServerIdTracking;
 + (FacebookManager *) Facebook;
 + (AppleIAP *) AppleIAP;

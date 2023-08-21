@@ -28,7 +28,7 @@ NSString *const kGCMMessageIDKey = @"gcm.message_id";
     NSLog(@"DEMLOG = 1");
     [[GameSDK sharedInstance] initSdk];
     [[GameSDK sharedInstance] application:application didFinishLaunchingWithOptions:launchOptions];
-    [[GameSDK Firebase] application:self andApplication:application didFinishLaunchingWithOptions:launchOptions];
+    [[FirebaseManager sharedInstance] application:self andApplication:application didFinishLaunchingWithOptions:launchOptions];
     NSLog(@"DEMLOG = 2");
     
     
@@ -85,7 +85,7 @@ NSString *const kGCMMessageIDKey = @"gcm.message_id";
 // [START refresh_token]
 - (void)messaging:(FIRMessaging *)messaging didReceiveRegistrationToken:(NSString *)fcmToken {
     
-    [[GameSDK Firebase] messaging:messaging didReceiveRegistrationToken:fcmToken];
+    [[FirebaseManager sharedInstance] messaging:messaging didReceiveRegistrationToken:fcmToken];
 }
 // [END refresh_token]
 
@@ -161,7 +161,7 @@ NSString *const kGCMMessageIDKey = @"gcm.message_id";
     }
 
     // Print full message.
-    [[GameSDK Firebase] showInAppMessage:userInfo];
+    [[FirebaseManager sharedInstance] showInAppMessage:userInfo];
 
     // Change this to your preferred presentation option
     completionHandler(UNNotificationPresentationOptionBadge);
@@ -181,7 +181,7 @@ didReceiveNotificationResponse:(UNNotificationResponse *)response
 
   // Print full message.
 //    [self showCloudMessage:userInfo];
-    [[GameSDK Firebase] showInAppMessage:userInfo];
+    [[FirebaseManager sharedInstance] showInAppMessage:userInfo];
   completionHandler();
 }
 
