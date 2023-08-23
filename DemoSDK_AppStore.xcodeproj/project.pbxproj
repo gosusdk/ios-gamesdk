@@ -46,6 +46,7 @@
 		CEA0A2A42A85D8F700086908 /* FBAEMKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA0A2A02A85D8F700086908 /* FBAEMKit.xcframework */; };
 		CEA0A2A52A85D8F700086908 /* FBSDKCoreKit_Basics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA0A2A12A85D8F700086908 /* FBSDKCoreKit_Basics.xcframework */; };
 		CEA0A2B22A85DCC200086908 /* FBSDKShareKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA0A2B12A85DCC200086908 /* FBSDKShareKit.xcframework */; };
+		CEA814152A95FEC8005F01C8 /* AppsFlyerLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA814142A95FEC7005F01C8 /* AppsFlyerLib.framework */; };
 		CEAEDE0029346F2B0033D2BC /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAEDDFF29346F2B0033D2BC /* File.swift */; };
 		CEE10E9D27E0918C00129EBC /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE354F525B31CD00008F412 /* Accelerate.framework */; };
 /* End PBXBuildFile section */
@@ -110,6 +111,7 @@
 		CEA0A2A12A85D8F700086908 /* FBSDKCoreKit_Basics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FBSDKCoreKit_Basics.xcframework; sourceTree = "<group>"; };
 		CEA0A2B12A85DCC200086908 /* FBSDKShareKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FBSDKShareKit.xcframework; sourceTree = "<group>"; };
 		CEA0A2B42A85E9F100086908 /* DemoSDK_AppStoreDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DemoSDK_AppStoreDebug.entitlements; sourceTree = "<group>"; };
+		CEA814142A95FEC7005F01C8 /* AppsFlyerLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppsFlyerLib.framework; sourceTree = "<group>"; };
 		CEAEDDFF29346F2B0033D2BC /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		CEE10E4027E0901F00129EBC /* DemoSDK_AppStore-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoSDK_AppStore-Bridging-Header.h"; sourceTree = "<group>"; };
 		CEE354F525B31CD00008F412 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
@@ -128,6 +130,7 @@
 				CEA0A2A22A85D8F700086908 /* FBSDKCoreKit.xcframework in Frameworks */,
 				CEE10E9D27E0918C00129EBC /* Accelerate.framework in Frameworks */,
 				8AB17D99239FCD6D0057AED5 /* AuthenticationServices.framework in Frameworks */,
+				CEA814152A95FEC8005F01C8 /* AppsFlyerLib.framework in Frameworks */,
 				CE43FA3D29B7290F0073AA98 /* GTMAppAuth.xcframework in Frameworks */,
 				CE43FA3C29B7290F0073AA98 /* GoogleSignIn.xcframework in Frameworks */,
 				CE43FA3429B7290F0073AA98 /* FirebaseInstallations.xcframework in Frameworks */,
@@ -264,6 +267,7 @@
 		CE43FA0829B7290E0073AA98 /* third-party */ = {
 			isa = PBXGroup;
 			children = (
+				CEA814142A95FEC7005F01C8 /* AppsFlyerLib.framework */,
 				CEA0A29B2A85D0DE00086908 /* AirBridge.xcframework */,
 				CEA0A29D2A85D8F600086908 /* FacebookSDKv16 */,
 				CE43FA0F29B7290E0073AA98 /* Firebase */,
