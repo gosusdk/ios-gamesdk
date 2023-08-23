@@ -270,6 +270,8 @@
     [[GameSDK sharedInstance] IDSignOut:self];
     [[GameSDK sharedInstance] showSignInView:self andResultDelegate:self];
     
+    [self callTrackingAFExample];
+    
 //    [[GosuSDK sharedInstance] showLoginView:self];
 }
 
