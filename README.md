@@ -144,7 +144,7 @@
     //init SDK
     [[GameSDK sharedInstance] initSdk];
     [[GameSDK sharedInstance] application:application didFinishLaunchingWithOptions:launchOptions];
-    [[GameSDK Firebase] application:self andApplication:application didFinishLaunchingWithOptions:launchOptions];
+    [[FirebaseManager sharedInstance] application:self andApplication:application didFinishLaunchingWithOptions:launchOptions];
     return YES;
 }
 ```
@@ -166,7 +166,7 @@
 6. Registration FCM token and message
 ```objectivec
 - (void)messaging:(FIRMessaging *)messaging didReceiveRegistrationToken:(NSString *)fcmToken {
-    [[GameSDK Firebase] messaging:messaging didReceiveRegistrationToken:fcmToken];
+    [[FirebaseManager sharedInstance] messaging:messaging didReceiveRegistrationToken:fcmToken];
 }
 - (void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error {
     NSLog(@"APNs Unable to register for remote notifications: %@", error);
@@ -201,7 +201,7 @@
          withCompletionHandler:(void (^)(UNNotificationPresentationOptions))completionHandler API_AVAILABLE(ios(10.0)){
     NSDictionary *userInfo = notification.request.content.userInfo;
     // Print full message.
-    [[GameSDK Firebase] showInAppMessage:userInfo];
+    [[FirebaseManager sharedInstance] showInAppMessage:userInfo];
     // Change this to your preferred presentation option
     completionHandler(UNNotificationPresentationOptionBadge);
 }
@@ -211,7 +211,7 @@
 didReceiveNotificationResponse:(UNNotificationResponse *)response
          withCompletionHandler:(void(^)(void))completionHandler {
   NSDictionary *userInfo = response.notification.request.content.userInfo;
-    [[GameSDK Firebase] showInAppMessage:userInfo];
+    [[FirebaseManager sharedInstance] showInAppMessage:userInfo];
   completionHandler();
 }
 // [END ios_10_message_handling]
