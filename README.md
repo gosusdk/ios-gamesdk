@@ -27,8 +27,11 @@
   - MobileCoreServices.framework
   - SystemConfiguration.framework
   - MessageUI.framework
-  - AdSupport.framework
-  - AppTrackingTransparency.framework
+  - **AdSupport.framework**
+  - **AppTrackingTransparency.framework**
+  - **AdServices.framework**
+  - **StoreKit.framework**
+  - **iAd.framework**
 - Adding Capabilities: Sign-in with Apple, Push Notifications
 ![image](https://github.com/gosusdk/ios-gamesdk/assets/94542020/f0b24e30-4832-470e-b08f-66ebfa6f4155)
 
