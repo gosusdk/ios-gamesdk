@@ -51,6 +51,7 @@
 @property (nonatomic, assign) BOOL      isProductReady;
 @property (nonatomic, assign) BOOL      isSandbox;
 @property (nonatomic, assign) BOOL isShowBtn18plus;
+@property (nonatomic, assign) BOOL isFbAllow;
 
 //AppsFlyer
 @property (nonatomic, strong) NSString *appflyerDevKey;
@@ -81,6 +82,7 @@
 - (void)updateInstalled:(BOOL) install;
 - (void)setLoggedInStatus:(BOOL)isLogged;
 - (BOOL) isLoggedIn;
+- (NSString *) getSdkVersion;
 
 //set olde account
 - (void) setOldAccount:(NSString *)oldAccount;

@@ -18,27 +18,27 @@
 		</data>
 		<key>GoogleOAuthViewController.nib</key>
 		<data>
-		h59E65AJQieEIqV7k6ou0Z8jgxM=
+		TwqhRR8g1+9TbN3bR3OzeS3Z518=
 		</data>
 		<key>Headers/GameSDK.h</key>
 		<data>
-		8bp4Kcl4nOEJCt6Gdcr3I/Lnmrg=
+		q8Sz4KRF9njJ0FUmWjDuejLzfk8=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		qrTeQ2UxVWnoD78aHYqIph45uxc=
 		</data>
 		<key>SignInViewController.nib/objects-14.0+.nib</key>
 		<data>
-		F6CpBkWV+6FO2TBAYJrRUcYEJY0=
+		e+2ZreiFP8FPWrtFDFPw4e0ddmg=
 		</data>
 		<key>SignInViewController.nib/runtime.nib</key>
 		<data>
-		24ZW4yvjkN8PkfES3yFpdbO768M=
+		vKad9fHTzjVEiw9ic9BBDniGaLc=
 		</data>
-		<key>View1Controller.nib/objects-11.0+.nib</key>
+		<key>View1Controller.nib</key>
 		<data>
-		0Lmouu3X5hHjrOrPl2qNaW/Wtio=
-		</data>
-		<key>View1Controller.nib/runtime.nib</key>
-		<data>
-		O12etl1eJenDkX+1nlbOity1MHQ=
+		KvdXC1D629q4uKRZeckbVbYT09c=
 		</data>
 		<key>a18plus.png</key>
 		<data>
@@ -142,7 +142,7 @@
 		</data>
 		<key>oPaintViewController.nib</key>
 		<data>
-		+4VM1fklmKXzNFh6CEa0LcxKhKY=
+		DoRBQFLOxgNdIFQfQ6xV0ctF1sY=
 		</data>
 		<key>tao_trang.png</key>
 		<data>
@@ -192,66 +192,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			h59E65AJQieEIqV7k6ou0Z8jgxM=
+			TwqhRR8g1+9TbN3bR3OzeS3Z518=
 			</data>
 			<key>hash2</key>
 			<data>
-			wTS2omF0s8dhTKp0hUbQ467CHTxmAah9Q/mAmL5ko2I=
+			3COyOGjrnh9OhKa2eIWg1oQNW8hM36z9br4rWUTdWdc=
 			</data>
 		</dict>
 		<key>Headers/GameSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8bp4Kcl4nOEJCt6Gdcr3I/Lnmrg=
+			q8Sz4KRF9njJ0FUmWjDuejLzfk8=
 			</data>
 			<key>hash2</key>
 			<data>
-			39mec+dnnqc+mrxPpTFAG9/Og1H3mY5SQABGjTHrwx8=
+			lOFX4oR1eaStu4aFH0Ftzyn4bDmB3vFp+uVB8DXfH3o=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qrTeQ2UxVWnoD78aHYqIph45uxc=
+			</data>
+			<key>hash2</key>
+			<data>
+			DpJsLyiIfqPQ3n05u299FqwHN3iasmamdMybDhFz+Lg=
 			</data>
 		</dict>
 		<key>SignInViewController.nib/objects-14.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			F6CpBkWV+6FO2TBAYJrRUcYEJY0=
+			e+2ZreiFP8FPWrtFDFPw4e0ddmg=
 			</data>
 			<key>hash2</key>
 			<data>
-			dUjqUsbpbIdrBK+CvyXdY4pF8CeaeAK4NHyaCuutZcI=
+			UaUjWtRcEX/zQvAhk8ZM9ylaKVsBGbxZmMGp2FMF+Hc=
 			</data>
 		</dict>
 		<key>SignInViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			24ZW4yvjkN8PkfES3yFpdbO768M=
+			vKad9fHTzjVEiw9ic9BBDniGaLc=
 			</data>
 			<key>hash2</key>
 			<data>
-			ll1ZnDLS3soqR9t1egZT3NPKMdv9GzWNUujipW6MGxM=
+			cUDzzw3JBN8MDUye4tR9T69pZtHZyLLWIWZDd9mq59c=
 			</data>
 		</dict>
-		<key>View1Controller.nib/objects-11.0+.nib</key>
+		<key>View1Controller.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0Lmouu3X5hHjrOrPl2qNaW/Wtio=
+			KvdXC1D629q4uKRZeckbVbYT09c=
 			</data>
 			<key>hash2</key>
 			<data>
-			dpn5BOGhPAmwyd7nOJNWssOYaYQJH+gChHQfK7AS4do=
-			</data>
-		</dict>
-		<key>View1Controller.nib/runtime.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			O12etl1eJenDkX+1nlbOity1MHQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			Xd+DYI+b2tdr2O4FHwf+ElLccpR3M1+FPZUejgcTWGI=
+			hI0iRAkdwogZF4iUzlDxpsKIsGK/whH/5kdFf+6x65s=
 			</data>
 		</dict>
 		<key>a18plus.png</key>
@@ -533,11 +533,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+4VM1fklmKXzNFh6CEa0LcxKhKY=
+			DoRBQFLOxgNdIFQfQ6xV0ctF1sY=
 			</data>
 			<key>hash2</key>
 			<data>
-			SOCKFSuV5GHDVCNUmir1OCohWdbfKU44c1obV7xtal8=
+			c1r9btsmp9LGB4fkO8EX5pJcEVFSoi8hQBDHlzVF7ig=
 			</data>
 		</dict>
 		<key>tao_trang.png</key>

@@ -28,6 +28,7 @@
 + (FacebookManager *) Facebook;
 + (AppleIAP *) AppleIAP;
 + (GTrackingManager *) GTracking;
++ (FirebaseManager *) Firebase;
 @property (nonatomic, strong) GameInfo *gameInfo;
 
 - (void) initSdk;
@@ -48,6 +49,6 @@ didFinishLaunchingWithOptions:(NSDictionary *)launchOptions;
 - (BOOL) deleteAccountAllow;
 - (void) deleteAcount:(UIViewController *) mainView andCallback:(void(^)(NSDictionary *))callback;
 - (void) deleteAcount:(void(^)(NSString *))callback;
-
+- (NSString *) getSdkVersion;
 - (void) showFloatingButton:(UIViewController *)mainView;
 @end

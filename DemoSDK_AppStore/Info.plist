@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AirbAppName</key>
+	<string>sdkgosutest</string>
+	<key>AirbAppToken</key>
+	<string>d878da2af447440385fe9a4fe37b06a0</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>zh_CN</string>
 	<key>CFBundleDisplayName</key>
@@ -45,11 +49,7 @@
 	<string>Liên Minh Bảo Bối</string>
 	<key>GameClientID</key>
 	<string>m388.6dczgK7QHFMbB2Yy</string>
-	<key>AirbAppName</key>
-	<string>sdkgosutest</string>
-	<key>AirbAppToken</key>
-	<string>d878da2af447440385fe9a4fe37b06a0</string>
-	<key>GoogleAppID</key>
+	<key>GIDClientID</key>
 	<string>599125603004-1ro52uln95jfuc59bku4tapv5iah29jf.apps.googleusercontent.com</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
