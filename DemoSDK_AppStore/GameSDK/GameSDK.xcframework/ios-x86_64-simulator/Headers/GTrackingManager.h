@@ -17,9 +17,11 @@
 didFinishLaunchingWithOptions:(NSDictionary *)launchOptions;
 - (void) setCustomerUserID:(NSString *)customerUserID;
 - (void) showSignInSDK;
+- (void) verifyLogin;
 - (void) trackingSignIn:(NSString *)userId andUsername:(NSString *)username andEmail:(NSString *)email;
 - (void) checkout:(NSString *)orderId andProductId:(NSString *)productId andAmount:(NSString *)amount andCurrency:(NSString *)currency andUsername:(NSString *)username;
 - (void) purchase:(NSString *)orderId andProductId:(NSString *)productId andAmount:(NSString *)amount andCurrency:(NSString *)currency andUsername:(NSString *)username;
+- (void) purchase:(NSString *)orderId andProductId:(NSString *)productId andAmount:(NSString *)amount andCurrency:(NSString *)currency andUsername:(NSString *)username andIsIAP:(BOOL) isIAP;
 - (void) trackingEvent:(NSString *)eventName withValues:(NSDictionary*)values;
 
 - (void) registerForRemoteNotifications:(NSData *)deviceToken;

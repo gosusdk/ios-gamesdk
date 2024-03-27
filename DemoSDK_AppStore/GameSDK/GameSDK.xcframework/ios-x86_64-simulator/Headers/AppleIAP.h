@@ -17,6 +17,7 @@
 
 @property (nonatomic, strong) id<IAPDelegate> iAPDelegate;
 @property (nonatomic, strong) IAPDataRequest *iAPDataRequest;
+@property (nonatomic, assign) BOOL isIAP;
 
 + (AppleIAP *) sharedInstance;
 - (void) showIAP:(IAPDataRequest *) iapData;
