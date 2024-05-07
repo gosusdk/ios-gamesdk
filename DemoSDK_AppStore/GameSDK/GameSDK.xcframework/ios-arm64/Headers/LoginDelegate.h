@@ -18,3 +18,11 @@
 - (void) logoutSuccess;
 - (void) logoutFail:(NSString *) message;
 @end
+
+#pragma init view Delegate
+@protocol ViewInitDelegate <NSObject>
+@required
+- (void) viewWillAppearDone;
+- (void) viewDidAppearDone;
+- (void) viewDidLoadDone;
+@end

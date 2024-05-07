@@ -65,6 +65,8 @@
 @property (nonatomic, strong) NSString *idads_app_key;
 @property (nonatomic, strong) NSString *idads_app_signature;
 @property (nonatomic, strong) NSString *environment;
+@property (nonatomic, assign) BOOL      gameAutoplay;
+@property (nonatomic, assign) NSInteger autoPlayNumber;
 
 //language
 @property (nonatomic, strong) NSString *sdk_language;
@@ -83,6 +85,9 @@
 - (void)setLoggedInStatus:(BOOL)isLogged;
 - (BOOL) isLoggedIn;
 - (NSString *) getSdkVersion;
+- (NSString *) getAppVersion;
+- (void) updateAutoPlayNumber;
+- (void) resetAutoPlayNumber;
 
 //set olde account
 - (void) setOldAccount:(NSString *)oldAccount;

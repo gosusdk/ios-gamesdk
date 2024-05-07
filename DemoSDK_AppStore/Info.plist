@@ -47,10 +47,10 @@
 	<string>1b37bacf7d38a01a4396a289454611ae</string>
 	<key>FacebookDisplayName</key>
 	<string>Liên Minh Bảo Bối</string>
-	<key>GameClientID</key>
-	<string>m388.6dczgK7QHFMbB2Yy</string>
 	<key>GIDClientID</key>
 	<string>599125603004-1ro52uln95jfuc59bku4tapv5iah29jf.apps.googleusercontent.com</string>
+	<key>GameClientID</key>
+	<string>m382.5fqH7bHTtRbjfXIZ</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>fbauth</string>
@@ -95,13 +95,6 @@
 	<key>UIStatusBarStyle</key>
 	<string>UIStatusBarStyleLightContent</string>
 	<key>UISupportedInterfaceOrientations</key>
-	<array>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
-		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationPortraitUpsideDown</string>
-	</array>
-	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
